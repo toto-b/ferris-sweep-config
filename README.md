@@ -2,7 +2,7 @@
 
 - [QMK](https://docs.qmk.fm/)
 - [Sweep](https://github.com/davidphilipbarr/Sweep)
-- [Keyboard Guide](https://franknoirot.co/posts/ferris-sweep-keyboard-layout/)
+- [QMK-Configurator](https://config.qmk.fm/#/ferris/sweep/)
 
 # Flashing
 
