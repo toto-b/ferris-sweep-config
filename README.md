@@ -20,7 +20,6 @@
 - Remove redundant/duplicated keymaps
 - Make shift/alt/super/... uniform in their placement
 - Adjust layer 6: right side is too empty
-- Swap Layer 2 right-left to match arrows with vim
 - Decrease number of layers
 - Adjust bracket placement
 - Adjust umlaute placement
