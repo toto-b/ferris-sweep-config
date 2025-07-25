@@ -16,6 +16,3 @@
 Ψ Compile a firmware with your new keymap by typing: qmk compile -kb ferris/sweep -km totob.
 ```
 # To-Do
-
-- Adjust bracket placement
-
