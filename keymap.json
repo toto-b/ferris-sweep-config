@@ -30,22 +30,22 @@
          "KC_NO"       , "KC_TRNS"
         ],
         ["KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
-         "KC_TRNS"     , "KC_TRNS"     , "KC_PGUP"        , "KC_TRNS"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_PGUP"        , "KC_TRNS"       , "KC_QUOT",
 
          "KC_TRNS"     , "KC_TRNS"     , "KC_NO"          , "KC_TRNS"       , "KC_TRNS",
-         "KC_LEFT"     , "KC_DOWN"     , "KC_UP"          , "KC_RGHT"       , "KC_TRNS",
+         "KC_LEFT"     , "KC_DOWN"     , "KC_UP"          , "KC_RGHT"       , "KC_SCLN",
 
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
-         "KC_TRNS"     , "KC_HOME"     , "KC_PGDN"        , "KC_END"        , "KC_TRNS",
+         "KC_TRNS"     , "KC_HOME"     , "KC_PGDN"        , "KC_END"        , "KC_LBRC",
 
          "KC_TRNS"     , "KC_TRNS",
          "KC_TRNS"     , "KC_TRNS"
         ],
         ["KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
-         "KC_TRNS"     , "KC_UNDS"     , "KC_PIPE"        , "KC_QUOT"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_UNDS"     , "KC_PIPE"        , "KC_TRNS"       , "KC_TRNS",
 
          "KC_CIRC"     , "KC_ASTR"     , "KC_AMPR"        , "KC_NO"         , "KC_TRNS",
-         "KC_HASH"     , "KC_TILD"     , "KC_SLSH"        , "KC_DQUO"       , "KC_DLR",
+         "KC_HASH"     , "KC_TILD"     , "KC_SLSH"        , "KC_TRNS"       , "KC_DLR",
 
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
          "KC_TRNS"     , "KC_MINS"     , "KC_BSLS"        , "KC_GRV"        , "KC_TRNS",
@@ -53,13 +53,13 @@
          "KC_TRNS"     , "KC_TRNS",
          "KC_TRNS"     , "KC_TRNS"
         ],
-        ["KC_TRNS"     , "KC_COLN"     , "KC_LT"          , "KC_GT"         , "KC_SCLN",
+        ["KC_TRNS"     , "KC_TRNS"     , "KC_LT"          , "KC_GT"         , "KC_TRNS",
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
 
-         "KC_LCBR"     , "KC_RCBR"     , "KC_LPRN"        , "KC_RPRN"       , "KC_AT",
+         "KC_TRNS"     , "KC_RCBR"     , "KC_LPRN"        , "KC_RPRN"       , "KC_AT",
          "KC_NO"       , "KC_TRNS"     , "KC_EQL"         , "KC_PLUS"       , "KC_PERC",
 
-         "KC_TRNS"     , "KC_EXLM"     , "KC_LBRC"        , "KC_RBRC"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_EXLM"     , "KC_TRNS"        , "KC_RBRC"       , "KC_TRNS",
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
 
          "KC_VOLD"     , "KC_TRNS",
