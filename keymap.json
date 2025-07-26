@@ -17,14 +17,14 @@
          "RALT_T(KC_TAB)"   , "KC_BSPC",
          "LT(1,KC_SPC)"     , "LGUI_T(KC_ENT)"
         ],
-        ["KC_TRNS"     , "KC_TRNS"     , "KC_PERC"        , "KC_EXLM"         , "RALT(KC_8)",
-         "RALT(KC_9)"  , "KC_MINS"     , "KC_AMPR"        , "KC_TRNS"         , "KC_TRNS",
+        ["KC_TRNS"     , "KC_TRNS"      , "KC_PERC"        , "KC_EXLM"         , "RALT(KC_8)",
+         "RALT(KC_9)"  , "KC_MINS"      , "KC_AMPR"        , "KC_TRNS"         , "KC_TRNS",
 
-         "KC_TRNS"     , "KC_TRNS"     , "KC_CIRC"        , "KC_NUBS"         , "KC_ASTR",
-         "KC_LPRN"     , "KC_ESC"      , "KC_DLR"         , "KC_TRNS"         , "KC_DEL",
+         "KC_TRNS"     , "KC_TRNS"      , "KC_CIRC"        , "KC_NUBS"         , "KC_ASTR",
+         "KC_LPRN"     , "KC_ESC"       , "KC_DLR"         , "KC_TRNS"         , "KC_DEL",
 
-         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"         , "RALT(KC_7)",
-         "RALT(KC_0)"  , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"         , "KC_TRNS",
+         "KC_TRNS"     , "KC_TRNS"      , "KC_TRNS"        , "KC_TRNS"         , "RALT(KC_7)",
+         "RALT(KC_0)"  , "RALT(KC_MINS)", "KC_TRNS"        , "KC_TRNS"         , "KC_TRNS",
 
          "KC_TRNS"     , "KC_TRNS",
          "KC_NO"       , "KC_TRNS"
