@@ -20,7 +20,7 @@
         ["KC_TRNS"     , "KC_TRNS"      , "KC_PERC"        , "KC_EXLM"         , "RALT(KC_8)",
          "RALT(KC_9)"  , "LSFT(KC_MINS)", "KC_AMPR"        , "KC_TRNS"         , "KC_TRNS",
 
-         "KC_TRNS"     , "KC_TRNS"      , "KC_CIRC"        , "KC_NUBS"         , "KC_ASTR",
+         "KC_TRNS"     , "KC_TRNS"      , "KC_NUBS"        , "KC_CIRC"         , "KC_ASTR",
          "KC_LPRN"     , "KC_ESC"       , "KC_GRV"         , "KC_DLR"          , "KC_DEL",
 
          "KC_TRNS"     , "KC_TRNS"      , "KC_TRNS"        , "KC_TRNS"         , "RALT(KC_7)",
@@ -29,14 +29,14 @@
          "KC_TRNS"     , "KC_TRNS",
          "KC_NO"       , "KC_TRNS"
         ],
-        ["KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_MINS"       , "KC_BSLS",
-         "KC_PSCR"     , "KC_SCRL"     , "KC_PGUP"        , "KC_PAUS"       , "KC_QUOT",
+        ["KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "RALT(KC_RBRC)" , "KC_BSLS",
+         "KC_PSCR"     , "KC_SCRL"     , "KC_PGUP"        , "KC_PAUS"       , "KC_MINS",
 
-         "KC_TRNS"     , "KC_TRNS"     , "KC_NO"          , "KC_HASH"       , "KC_AT",
-         "KC_LEFT"     , "KC_DOWN"     , "KC_UP"          , "KC_RGHT"       , "KC_SCLN",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_NO"          , "RALT(KC_NUBS)" , "KC_AT",
+         "KC_LEFT"     , "KC_DOWN"     , "KC_UP"          , "KC_RGHT"       , "KC_LBRC",
 
-         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_GRV"        , "KC_EQL",
-         "KC_CAPS"     , "KC_HOME"     , "KC_PGDN"        , "KC_END"        , "KC_LBRC",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_EQL",
+         "KC_CAPS"     , "KC_HOME"     , "KC_PGDN"        , "KC_END"        , "KC_QUOT",
 
          "KC_TRNS"     , "KC_TRNS",
          "KC_TRNS"     , "KC_TRNS"

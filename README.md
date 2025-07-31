@@ -15,4 +15,3 @@
 Ψ Created a new keymap called totob in: /home/tobias/qmk_firmware/keyboards/ferris/keymaps/totob.
 Ψ Compile a firmware with your new keymap by typing: qmk compile -kb ferris/sweep -km totob.
 ```
-# To-Do
