@@ -26,8 +26,8 @@
          "KC_TRNS"     , "KC_TRNS"      , "KC_PEQL"        , "KC_TRNS"         , "RALT(KC_7)",
          "RALT(KC_0)"  , "RALT(KC_MINS)", "KC_TRNS"        , "KC_TRNS"         , "KC_TRNS",
 
-         "KC_TRNS"     , "KC_TRNS",
-         "KC_NO"       , "KC_TRNS"
+         "KC_TRNS"     , "KC_NO",
+         "KC_TRNS"     , "KC_TRNS"
         ],
         ["KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "RALT(KC_RBRC)" , "KC_BSLS",
          "KC_PSCR"     , "KC_SCRL"     , "KC_PGUP"        , "KC_PAUS"       , "KC_MINS",
