@@ -1,6 +1,6 @@
 {    "version": 1,
     "notes": "toto-b's keymap",
-    "documentation": "Based on @pierrec83's keymap\n\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
+    "documentation": "Based on @pierrec83's keymap",
     "keyboard": "ferris/0_1",
     "keymap": "default",
     "layout": "LAYOUT_split_3x5_2",
@@ -17,11 +17,11 @@
          "LGUI_T(KC_TAB)"   , "LT(1,KC_SPC)",
          "KC_BSPC"          , "RALT_T(KC_ENT)"
         ],
-        ["KC_TRNS"     , "KC_TRNS"      , "KC_PERC"        , "KC_EXLM"         , "RALT(KC_8)",
+        ["KC_TRNS"     , "KC_PPLS"      , "KC_PERC"        , "KC_EXLM"         , "RALT(KC_8)",
          "RALT(KC_9)"  , "LSFT(KC_MINS)", "KC_AMPR"        , "KC_TRNS"         , "KC_TRNS",
 
-         "KC_TRNS"     , "KC_TRNS"      , "KC_NUBS"        , "KC_CIRC"         , "KC_ASTR",
-         "KC_LPRN"     , "KC_ESC"       , "KC_GRV"         , "KC_DLR"          , "KC_DEL",
+         "KC_TRNS"     , "KC_ESC"       , "KC_NUBS"        , "KC_CIRC"         , "KC_ASTR",
+         "KC_LPRN"     , "KC_DEL"       , "KC_GRV"         , "KC_DLR"          , "KC_TRNS",
 
          "KC_TRNS"     , "KC_TRNS"      , "KC_PEQL"        , "KC_TRNS"         , "RALT(KC_7)",
          "RALT(KC_0)"  , "RALT(KC_MINS)", "KC_TRNS"        , "KC_TRNS"         , "KC_TRNS",
@@ -29,7 +29,7 @@
          "KC_TRNS"     , "KC_NO",
          "KC_TRNS"     , "KC_TRNS"
         ],
-        ["KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "RALT(KC_RBRC)" , "KC_BSLS",
+        ["KC_TRNS"     , "KC_PPLS"     , "KC_TRNS"        , "RALT(KC_RBRC)" , "KC_BSLS",
          "KC_PSCR"     , "KC_SCRL"     , "KC_PGUP"        , "KC_PAUS"       , "KC_MINS",
 
          "KC_TRNS"     , "KC_TRNS"     , "KC_NO"          , "RALT(KC_NUBS)" , "KC_AT",
