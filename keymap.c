@@ -3,16 +3,16 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_3x5_2(
         // Row 1
-        KC_Q,          KC_W,        KC_E,            KC_R,           KC_T,
-        KC_Y,          KC_U,        KC_I,            KC_O,           KC_P,
+        KC_Q,           KC_W,          KC_E,            KC_R,           KC_T,
+        KC_Y,           KC_U,          KC_I,            KC_O,           KC_P,
         // Row 2
-        LSFT_T(KC_A), LT(3, KC_S),  LT(2, KC_D),     KC_F,           KC_G,
-        KC_H,         KC_J,         KC_K,            LT(4, KC_L),    LSFT_T(KC_SCLN),
+        LSFT_T(KC_A),   LT(3, KC_S),   LT(2, KC_D),     KC_F,           KC_G,
+        KC_H,           KC_J,          KC_K,            LT(4, KC_L),    LSFT_T(KC_SCLN),
         // Row 3
-        KC_Z,         LCTL_T(KC_X), LALT_T(KC_C),    KC_V,           KC_B,
-        KC_N,         KC_M,         LALT_T(KC_COMM), LCTL_T(KC_DOT), KC_SLSH,
+        KC_Z,           LCTL_T(KC_X),  LALT_T(KC_C),    KC_V,           KC_B,
+        KC_N,           KC_M,          LALT_T(KC_COMM), LCTL_T(KC_DOT), KC_SLSH,
         // Thumbs
-        LGUI_T(KC_TAB), LT(1, KC_SPC), KC_BSPC, RALT_T(KC_ENT)),
+        LGUI_T(KC_TAB), LT(1, KC_SPC), KC_BSPC,         RALT_T(KC_ENT)),
 
 
     [1] = LAYOUT_split_3x5_2(
@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS,    KC_TRNS,       KC_PEQL, KC_TRNS, RALT(KC_7),
         RALT(KC_0), RALT(KC_MINS), KC_TRNS, KC_TRNS, KC_TRNS,
         // Thumbs
-        KC_TRNS, KC_NO, KC_TRNS, KC_TRNS),
+        KC_TRNS,    KC_NO,         KC_TRNS, KC_TRNS),
 
 
     [2] = LAYOUT_split_3x5_2(
