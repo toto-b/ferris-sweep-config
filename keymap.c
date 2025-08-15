@@ -1,5 +1,28 @@
 #include QMK_KEYBOARD_H
 
+enum custom_keycodes {
+    ESC_ENT = SAFE_RANGE,
+};
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    static uint16_t timer;
+    switch (keycode) {
+        case ESC_ENT:
+            if (record->event.pressed) {
+                timer = timer_read();
+            } else {
+                if (timer_elapsed(timer) < TAPPING_TERM) {
+                    tap_code(KC_ENT);
+                } else {
+                    register_code(KC_ESC);
+                    unregister_code(KC_ESC);
+                }
+            }
+            return false;
+    }
+    return true;
+}
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_3x5_2(
         // Row 1
@@ -12,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_Z,           LCTL_T(KC_X),  LALT_T(KC_C),    KC_V,           KC_B,
         KC_N,           KC_M,          LALT_T(KC_COMM), LCTL_T(KC_DOT), KC_SLSH,
         // Thumbs
-        LGUI_T(KC_TAB), LT(1, KC_SPC), KC_BSPC,         RALT_T(KC_ENT)),
+        LGUI_T(KC_TAB), LT(1, KC_SPC), KC_BSPC,         ESC_ENT),
 
 
     [1] = LAYOUT_split_3x5_2(
@@ -68,4 +91,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F15,  KC_F9,   KC_F10,  KC_F11,  KC_F12,
         KC_TRNS, KC_TRNS, OS_RALT, KC_TRNS, KC_TRNS,
         // Thumbs
-        KC_TRNS, KC_TRNS, KC_ESC,  KC_TRNS)};
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS)};
