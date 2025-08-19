@@ -83,10 +83,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [4] = LAYOUT_split_3x5_2(
         // Row 1
         KC_F13,  KC_F1,   KC_F2,   KC_F3,   KC_F4,
-        KC_VOLU, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_VOLU, KC_BRIU, KC_TRNS, KC_TRNS, KC_TRNS,
         // Row 2
         KC_F14,  KC_F5,   KC_F6,   KC_F7,   KC_F8,
-        KC_VOLD, KC_TRNS, KC_TRNS, KC_NO,   KC_TRNS,
+        KC_VOLD, KC_BRID, KC_TRNS, KC_NO,   KC_TRNS,
         // Row 3
         KC_F15,  KC_F9,   KC_F10,  KC_F11,  KC_F12,
         KC_TRNS, KC_TRNS, OS_RALT, KC_TRNS, KC_TRNS,
